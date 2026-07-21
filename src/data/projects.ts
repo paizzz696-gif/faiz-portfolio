@@ -26,7 +26,7 @@ export const projects: Project[] = [
     title: "TaskFlow ToDo",
     overview: "A modern, minimalist to-do application focusing on smooth user experience and quick task management.",
     image: "/images/projects/taskflow-todo.jpg",
-    techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Framer Motion", "shadcn/ui", "MySQL", "Vercel"],
+    techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Framer Motion", "shadcn/ui", "MySQL",],
     role: "Full-Stack Developer",
     status: "Completed",
     futureImprovements: ["Advanced Analytics Dashboard", "Real-Time Collaboration Engine", "Drag and drop sorting"],
