@@ -26,20 +26,20 @@ export const projects: Project[] = [
     title: "TaskFlow ToDo",
     overview: "A modern, minimalist to-do application focusing on smooth user experience and quick task management.",
     image: "/images/projects/taskflow-todo.jpg",
-    techStack: ["HTML5", "CSS3", "JavaScript"],
-    role: "Frontend Developer",
+    techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Framer Motion", "shadcn/ui", "MySQL", "Vercel"],
+    role: "Full-Stack Developer",
     status: "Completed",
     futureImprovements: ["Advanced Analytics Dashboard", "Real-Time Collaboration Engine", "Drag and drop sorting"],
   },
   {
-    id: "personal-portfolio",
-    title: "Personal Portfolio",
-    overview: "A premium personal portfolio website designed to showcase projects, technical expertise, certifications, and professional identity.",
+    id: "Photobooth Web App",
+    title: "Photobooth Web App",
+    overview: "PixelTide is a 100% client-side web photobooth with an 8-bit Deep Sea Pixel theme. Users can capture, apply creative retro frames, and download photo strips directly in-browser, ensuring full privacy and zero server costs.",
     image: "/images/projects/personal-portfolio.jpg",
-    techStack: ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP", "Lenis", "shadcn/ui", "Lucide React", "Vercel"],
+    techStack: ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "shadcn/ui", "Lucide React", "Vercel"],
     role: "UI/UX Designer & Fullstack Developer",
     status: "Completed",
-    futureImprovements: ["Certificate Filter & Categorization", "Interactive Skill Card Animations", "Dark/Light Mode Toggle"],
+    futureImprovements: ["Multi-Format & Individual Downloads", "Custom 8-bit Frame Builder", "Dynamic Themes & Soundscapes"],
   }
 ];
 
