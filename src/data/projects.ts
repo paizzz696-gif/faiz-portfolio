@@ -40,6 +40,16 @@ export const projects: Project[] = [
     role: "UI/UX Designer & Fullstack Developer",
     status: "Completed",
     futureImprovements: ["Multi-Format & Individual Downloads", "Custom 8-bit Frame Builder", "Dynamic Themes & Soundscapes"],
+  },
+  {
+    id: "nexerp-system",
+    title: "NexERP System (Enterprise Resource Planning)",
+    overview: "A web-based ERP system designed for SMEs, integrating core business operations (Master Data, Inventory, Purchasing, Sales, Accounting) into a single reactive platform. It features an elegant custom Dark Elevated UI and implements complex logic such as inventory audit-trails and Double-Entry Bookkeeping validation for accounting.",
+    image: "/images/projects/nexerp-system.jpg",
+    techStack: ["Laravel 12", "Blade", "PHP 8.2", "Livewire 3 (Volt)", "Tailwind CSS v4", "Alpine.js", "MySQL", "Spatie Permission"],
+    role: "Fullstack Developer",
+    status: "Completed",
+    futureImprovements: ["Server-side Database Optimization", "Advanced Export & Reporting", "Cloud Deployment"],
   }
 ];
 
