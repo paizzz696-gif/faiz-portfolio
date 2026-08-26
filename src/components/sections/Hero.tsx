@@ -40,7 +40,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 4.2, duration: 0.8 }}
-            className="text-gray-400 mb-4 font-mono text-sm tracking-widest uppercase"
+            className="text-gray-400 mb-4 font-mono text-xs sm:text-sm tracking-widest uppercase"
           >
             {t.hero.greeting}
           </motion.p>
@@ -50,7 +50,8 @@ export default function Hero() {
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ delay: 4.4, duration: 0.8, ease: [0.33, 1, 0.68, 1] }}
-              className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] text-white"
+              // Ukuran font disesuaikan: 4xl di HP, 6xl di Tablet, 7xl/8xl di Desktop
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] text-white"
             >
               {t.hero.name.split(" ")[0]}
             </motion.h1>
@@ -61,7 +62,7 @@ export default function Hero() {
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ delay: 4.5, duration: 0.8, ease: [0.33, 1, 0.68, 1] }}
-              className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-gray-700"
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-gray-700"
             >
               {t.hero.name.split(" ")[1]}
             </motion.h1>
@@ -74,7 +75,7 @@ export default function Hero() {
             className="flex items-center gap-4 mb-12"
           >
             <div className="h-[2px] w-12 bg-accent" />
-            <span className="text-xl md:text-2xl font-light text-white tracking-wide">
+            <span className="text-lg sm:text-xl md:text-2xl font-light text-white tracking-wide">
               {text}<span className="animate-pulse text-accent">|</span>
             </span>
           </motion.div>
@@ -100,7 +101,7 @@ export default function Hero() {
         >
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10" />
           <Image 
-            src="/images/profile/hero.jpg" // <-- DIUBAH KE hero.jpg
+            src="/images/profile/hero.jpg" 
             alt="Muhammad Faiz" 
             fill 
             className="object-cover grayscale hover:grayscale-0 transition-all duration-700" 

@@ -10,35 +10,35 @@ import { Eye } from "lucide-react";
 import { SVGProps } from "react"; // Import tipe untuk SVG
 
 // Import Logo Asli dari react-icons
-import { 
-  SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiJavascript, 
+import {
+  SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiJavascript,
   SiPhp, SiLaravel, SiMysql, SiHtml5, SiGit, SiGithub,
-  SiNodedotjs, SiVite 
+  SiNodedotjs, SiVite
 } from "react-icons/si";
 
 // --- KUSTOM SVG MANUAL (DENGAN TIPE YANG BENAR) ---
 const Css3Icon = ({ className, style }: SVGProps<SVGSVGElement>) => (
   <svg className={className} style={style} width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.61L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/>
+    <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.61L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
   </svg>
 );
 
 const VsCodeIcon = ({ className, style }: SVGProps<SVGSVGElement>) => (
   <svg className={className} style={style} width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v9.896z"/>
+    <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v9.896z" />
   </svg>
 );
 
 const BladeIcon = ({ className, style }: SVGProps<SVGSVGElement>) => (
   <svg className={className} style={style} width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path d="M12 2L22 22H2L12 2z" opacity="0.8"/>
-    <path d="M12 6L18 20H6L12 6z"/>
+    <path d="M12 2L22 22H2L12 2z" opacity="0.8" />
+    <path d="M12 6L18 20H6L12 6z" />
   </svg>
 );
 
 const AlpineIcon = ({ className, style }: SVGProps<SVGSVGElement>) => (
   <svg className={className} style={style} width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path d="M7.5 6.5L12 11l4.5-4.5L12 2 7.5 6.5zm-7.5 11L4.5 22 9 17.5 4.5 13 0 17.5zm15 0L19.5 22 24 17.5 19.5 13 15 17.5z"/>
+    <path d="M7.5 6.5L12 11l4.5-4.5L12 2 7.5 6.5zm-7.5 11L4.5 22 9 17.5 4.5 13 0 17.5zm15 0L19.5 22 24 17.5 19.5 13 15 17.5z" />
   </svg>
 );
 
@@ -73,24 +73,24 @@ interface CertData {
 }
 
 const certs: CertData[] = [
-  { 
-    id: 1, 
-    title: "AMD Classroom", 
-    issuer: "Sertifikat penghargaan atas partisipasi sebagai peserta dalam acara talkshow AMD Classroom yang diselenggarakan pada 27 Agustus 2025 di Universitas Andalas", 
+  {
+    id: 1,
+    title: "AMD Classroom",
+    issuer: "Sertifikat penghargaan atas partisipasi sebagai peserta dalam acara talkshow AMD Classroom yang diselenggarakan pada 27 Agustus 2025 di Universitas Andalas",
     year: "Aug 27, 2025",
     image: "/images/certificates/cert-1.jpg"
   },
-  { 
-    id: 2, 
-    title: "Code Politan", 
-    issuer: "Sertifikat kelulusan dari kelas Dasar dan Penggunaan Generatif AI yang diterbitkan pada 11 September 2025", 
+  {
+    id: 2,
+    title: "Code Politan",
+    issuer: "Sertifikat kelulusan dari kelas Dasar dan Penggunaan Generatif AI yang diterbitkan pada 11 September 2025",
     year: "Sep 11, 2025",
     image: "/images/certificates/cert-2.jpg"
   },
-  { 
-    id: 3, 
-    title: "Claude 101", 
-    issuer: "Sertifikat penyelesaian (completion) karena telah berhasil menyelesaikan kursus atau program Claude 101 pada 27 April 2026", 
+  {
+    id: 3,
+    title: "Claude 101",
+    issuer: "Sertifikat penyelesaian (completion) karena telah berhasil menyelesaikan kursus atau program Claude 101 pada 27 April 2026",
     year: "Apr 27, 2026",
     image: "/images/certificates/cert-3.jpg"
   },
@@ -131,15 +131,15 @@ const CertificateCard = ({ cert }: { cert: CertData }) => {
       style={{ rotateX, rotateY, transformStyle: "preserve-3d", perspective: 1000 }}
       className="glass rounded-2xl p-6 flex flex-col gap-4 hover:border-accent/40 transition-colors h-full cursor-pointer"
     >
-      <div 
-        style={{ transform: "translateZ(40px)" }} 
+      <div
+        style={{ transform: "translateZ(40px)" }}
         className="relative w-full h-40 rounded-lg overflow-hidden border border-white/5 bg-gray-800 group"
       >
-        <Image 
-          src={cert.image} 
-          alt={cert.title} 
-          fill 
-          className="object-cover transition-transform duration-500 group-hover:scale-110" 
+        <Image
+          src={cert.image}
+          alt={cert.title}
+          fill
+          className="object-cover transition-transform duration-500 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-black/50 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
           <div className="flex flex-col items-center gap-2 text-white scale-90 group-hover:scale-100 transition-transform duration-300">
@@ -153,7 +153,7 @@ const CertificateCard = ({ cert }: { cert: CertData }) => {
         <h3 className="text-lg font-bold mb-2">{cert.title}</h3>
         <p className="text-gray-400 text-xs leading-relaxed flex-grow">{cert.issuer}</p>
       </div>
-      
+
       <div className="flex justify-between items-center pt-4 border-t border-white/5">
         <span className="text-accent text-xs font-medium">{cert.year}</span>
       </div>
@@ -183,7 +183,8 @@ export default function Showcase() {
   ];
 
   return (
-    <section id="showcase" className="relative min-h-screen flex flex-col justify-center py-32 px-6 md:px-16">
+    // Padding disesuaikan: py-20 untuk HP, md:py-32 untuk Desktop
+    <section id="showcase" className="relative min-h-screen flex flex-col justify-center py-20 md:py-32 px-6 md:px-16">
       <div className="max-w-7xl mx-auto w-full">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -202,9 +203,8 @@ export default function Showcase() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`relative px-4 py-2 text-sm font-medium transition-colors rounded-full ${
-                  activeTab === tab.id ? "text-white" : "text-gray-500 hover:text-gray-300"
-                }`}
+                className={`relative px-4 py-2 text-sm font-medium transition-colors rounded-full ${activeTab === tab.id ? "text-white" : "text-gray-500 hover:text-gray-300"
+                  }`}
               >
                 {activeTab === tab.id && (
                   <motion.div
@@ -242,11 +242,11 @@ export default function Showcase() {
                 >
                   {/* BAGIAN FOTO */}
                   <div className="w-full md:w-1/2 relative aspect-[4/3] rounded-2xl overflow-hidden border border-white/5">
-                    <Image 
-                      src={project.image} 
-                      alt={project.title} 
-                      fill 
-                      className="object-cover group-hover:scale-105 transition-transform duration-500" 
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
 
@@ -257,10 +257,10 @@ export default function Showcase() {
                       <div className="h-[1px] w-12 bg-accent" />
                       <span className="text-xs text-gray-500 uppercase tracking-widest">{project.status}</span>
                     </div>
-                    
+
                     <h3 className="text-3xl md:text-4xl font-bold tracking-tight">{project.title}</h3>
                     <p className="text-gray-400 leading-relaxed">{project.overview}</p>
-                    
+
                     <p className="text-sm text-gray-500 mt-2">
                       <span className="text-white font-medium">Role:</span> {project.role}
                     </p>
@@ -320,20 +320,20 @@ export default function Showcase() {
               {techStack.map((tech, i) => {
                 const Icon = tech.icon;
                 return (
-                  <motion.div 
-                    key={tech.name} 
+                  <motion.div
+                    key={tech.name}
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: i * 0.03 }}
                     className="glass rounded-xl p-5 flex flex-col items-center justify-center gap-3 border border-white/5 relative overflow-hidden group cursor-pointer"
                   >
-                    <div 
+                    <div
                       className="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity duration-500"
                       style={{ background: `radial-gradient(circle at center, ${tech.color}, transparent 70%)` }}
                     ></div>
-                    <Icon 
-                      style={{ color: tech.color }} 
-                      className="text-3xl transition-all duration-300 group-hover:scale-110 relative z-10" 
+                    <Icon
+                      style={{ color: tech.color }}
+                      className="text-3xl transition-all duration-300 group-hover:scale-110 relative z-10"
                     />
                     <span className="text-sm font-medium text-gray-400 group-hover:text-white transition-colors relative z-10">
                       {tech.name}
