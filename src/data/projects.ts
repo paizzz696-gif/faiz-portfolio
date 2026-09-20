@@ -56,8 +56,8 @@ export const projects: Project[] = [
     title: "Python Web Crawling & Data Analytics Dashboard",
     overview: "A Python-based web crawling and data analytics platform that collects book data from a public website, cleans and stores the data in MySQL, performs basic analysis, and presents the results through an interactive Streamlit dashboard.",
     image: "/images/projects/python-crawling-analytics.jpg",
-    techStack: ["Python", "Requests", "BeautifulSoup4", "Pandas", "Matplotlib", "Plotly", "Streamlit", "MySQL/MariaDB", "PyMySQL", "Pytest", "Git", "GitHub", "python-dotenv"],
-    role: "Full-Stack Python Developer & Data Engineer",
+    techStack: ["Python", "Requests", "BeautifulSoup4", "Pandas", "Matplotlib", "Plotly", "Streamlit", "MySQL", "PyMySQL", "Pytest", "python-dotenv"],
+    role: "Full-Stack Developer & Data Engineer",
     status: "Completed",
     futureImprovements: ["Automated Scheduled Crawling", "Advanced Data Analytics", "Production Deployment & Monitoring"],
   }
