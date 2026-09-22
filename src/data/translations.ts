@@ -5,7 +5,7 @@ export const translations = {
     hero: { 
       greeting: "Hello, I'm", 
       name: "Muhammad Faiz",
-      roles: ["Fullstack Dev", "FrontEnd Dev", "UI/UX Designer", "Information System Student"], 
+      roles: ["Fullstack Dev", "FrontEnd Dev", "Information System Student"], 
       cta2: "View Projects" 
     },
     about: { 
